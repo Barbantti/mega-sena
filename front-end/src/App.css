@@ -1,0 +1,65 @@
+/* App.css */
+
+body {
+  background-color: #08428C; /* Cor de fundo para o corpo da página */
+  color: #fff; /* Cor do texto */
+  margin: 0; /* Remover margens padrão do corpo */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #0A3873; /* Cor do título */
+  padding: 15px;
+}
+
+button {
+  background-color: #037314; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  max-width: 200px; /* Defina a largura máxima do botão */
+  width: 100%; /* Faça com que o botão ocupe 100% da largura disponível */
+  margin: 0 auto; /* Centralize o botão na tela */
+}
+
+button:hover {
+  background-color: #0ABF04; /* Cor de fundo do botão ao passar o mouse */
+}
+
+p {
+  color: #fff; /* Cor do texto do parágrafo */
+}
+
+/* Estilo adicional para destacar os jogos */
+div {
+  margin: 20px; /* Reduzir as margens para telas menores */
+  padding: 10px;
+  background-color: #D9A84E; /* Cor de fundo do bloco de jogo */
+  border-radius: 8px;
+  display: flex; /* Permitir que o conteúdo se ajuste ao tamanho da tela */
+  flex-direction: column; /* Alinhar o conteúdo verticalmente em telas menores */
+}
+
+/* Estilo para o texto do jogo */
+p {
+  margin: 0;
+}
+
+/* Adicione estilos adicionais conforme necessário */
+
+/* Media query para telas menores */
+@media (max-width: 600px) {
+  .App {
+    padding: 10px; /* Reduzir o preenchimento para telas menores */
+  }
+
+  div {
+    margin: 10px; /* Reduzir as margens para telas menores */
+  }
+}
